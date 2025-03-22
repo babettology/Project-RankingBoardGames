@@ -1,6 +1,6 @@
 # Project-RankingBoardGames
 
-[imrs.php.avif](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/dd5d5f12-3cd2-44fb-88dd-d6a1622caff0/imrs.php.avif)
+![imrs php](https://github.com/user-attachments/assets/878c6061-385b-4a07-acfc-e42a6aa7b315)
 
 ---
 
@@ -14,7 +14,7 @@ SUMMARY
 
 # I. Overview
 
-This document provides an in-depth overview of the BoardGameGeek (BGG) dataset, the objective of the project, the initial problem, and the proposed alternative ranking strategy tailored to the BGG dataset using Python.
+This document introduces the BoardGameGeek (BGG) dataset and outlines our project's objective to enhance board game rankings. We identify the limitations of current ranking methods and propose an alternative strategy using Python. Our approach aims to provide a more accurate reflection of user preferences by considering multiple dimensions of user feedback.
 
 # II. Introduction
 
@@ -85,7 +85,6 @@ plt.legend()
 plt.show()
 ```
 
-![P1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/5eedd3e8-6295-4e3c-b72d-81fd43779558/P1.png)
 
 As shown in Figure 1, the Geek Ranking is characterised by its conservative nature, providing a more balanced assessment of game scores. Indeed the use of Bayesian average method offers more accuracy by considering both the overall rating and the sample size, resulting in a more accurate evaluation and ranking. Notably, no game, even those ranked at the top, receives a perfect rating of 10.
 
@@ -255,8 +254,6 @@ plt.show()
 
 sum = wilson['average_rating'].describe()
 ```
-
-![P2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/5cb57200-04a2-4eab-86e9-53ea8c4680e9/P2.png)
 
 Average Rating (dtype : float64)
 
