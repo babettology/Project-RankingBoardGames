@@ -10,8 +10,6 @@
 
 ---
 
-SUMMARY
-
 # I. Overview
 
 This document introduces the BoardGameGeek (BGG) dataset and outlines our project's objective to enhance board game rankings. We identify the limitations of current ranking methods and propose an alternative strategy using Python. Our approach aims to provide a more accurate reflection of user preferences by considering multiple dimensions of user feedback.
